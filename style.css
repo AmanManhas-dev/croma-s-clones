@@ -1,0 +1,287 @@
+*{
+    background-color: black;
+    color: white;
+}
+body{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+}
+.dp{
+    border-radius: 50%;
+    height: 1.5rem;
+    margin: 0.6rem;
+}
+.dp2{
+    height: 2.5rem;
+}
+.container{
+    color: white;
+}
+
+/* --------------Nav Bar---------------*/
+.conatiner-croma{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 1rem;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    height: 4rem;
+}
+.info-holder{
+    display: flex;
+    justify-content: space-between;
+    width: 25%; margin-top: 1rem;
+   
+}
+.info-holder>p{
+    margin-top: 0.5rem;
+}
+#title{
+    margin-left: 1rem;
+}
+.location{
+    display: flex;
+    margin-top: 0.5rem;
+
+}
+/* --------------Mobile Phones---------------*/
+.phones-wear{
+    height: 3rem;
+    font-size: small;
+    padding: 1.5rem;
+}
+
+
+.mobile-phones>h3{
+    height: 4rem;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+
+}
+.Give-treat{
+    height: 45rem;
+}
+.treat{
+    height: 15rem;
+    padding: 1.5rem;
+    
+}
+#carouselExampleSlidesOnly{
+    margin-top: 2rem;
+}
+
+.watch{
+    height: 27rem;
+    padding: 1.5rem;
+    
+   
+}
+.top-photos{
+     display: flex;
+    justify-content: space-around;
+}
+
+.bottom-photo{
+      display: flex;
+    justify-content: space-around;
+}
+.under-top-photo{
+    height: 10rem;
+    width: 100%;
+    
+    margin-right: 1.5rem;
+    border-radius: 10px;
+}
+
+.under-photo{
+    height: 10rem;
+    width: 100%;
+    align-items: center;
+    margin: o.5rem;
+    margin-top: 1.5rem;
+    margin-right: 2.1rem;
+    border-radius: 10px;
+    
+}
+
+
+/*--------------Most popular----------------*/
+
+.mostPopular{
+    height: 35rem;
+    padding: 1.5rem;
+    margin-top: 4rem;
+   
+
+}
+.up-image{
+     display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.u-image{
+    height: 13rem;
+    width: 100%;
+    align-items: center;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+}
+.down-image{
+    display: flex;
+    justify-content: space-around;
+}
+.d-image{
+    height: 12rem;
+    width: 100%;
+    align-items: center;
+    margin: o.5rem;
+    margin-top: 1.5rem;
+    margin-right: 2.1rem;
+    border-radius: 10px;
+    
+}
+
+/*------------------BestSeller-------------------*/
+.bestSeller{
+    height: 30rem;
+}
+
+.div-best{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 1.5rem;
+   
+
+}
+.best-photos{
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+   
+   
+}
+.card{
+    height: 25rem;
+    width: 100%;
+    border:2px white solid;
+    border-radius: 20px;
+     margin: 1rem;
+     margin-top: 1rem;
+    
+
+}
+/*---------------------------choose ur type-----------------------------*/
+.choose{
+    margin-top: 2rem;
+   
+}
+#choose{
+     margin-left: 1rem;
+}
+.chooseit{
+    height: 80rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+
+.chooze{
+    height: 20rem;
+    width: 70%;
+     border-radius: 10px;
+     margin: 1rem;
+}
+.footer{
+    border: 1px white solid;
+    border-radius: 10px;
+}
+
+/*----------------Media Query--------------------*/
+
+@media (max-width:600px) {
+    #search{
+        display: none;
+    }
+    .info-holder{
+        width:40%;
+    }
+    body{
+        padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    .watch{
+    height: 52rem;
+    padding: 0.1rem; 
+    }
+    .Give-treat{
+    height: 75rem;
+}
+    .watch>h3{
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+    .top-photos,.bottom-photo{
+        flex-direction: column;
+    }
+    .under-top-photo,.under-photo{
+        margin-top: 1rem;
+    }
+    .up-image{
+        flex-direction: column;
+        align-content:space-around ;
+        height: 30rem;
+        width: 100%;
+        margin-top: 1rem;
+        
+    }
+    .mostPopular{
+        height: 50rem;
+        margin-top: 8rem;
+    }
+    .down-image
+    .u-image{height: 7rem;
+        width: 7rem;
+        margin:1rem;
+    }
+    .d-image{
+        
+        height: 10rem;
+        width: 10rem;
+       
+    }
+    .mostPopular> h3{
+        margin-top: 2rem;
+    }
+
+    .bestSeller{
+        height: 120rem;
+        padding: 0.5rem;
+        
+    }
+    .best-photos{
+       
+       flex-direction: column;
+       align-content: center;
+    }
+    .card{
+        margin-top: 2rem;
+    }
+    .chooze{
+        width:90%;
+    }
+    #choose{
+        margin-top: 2rem;
+    }
+}
