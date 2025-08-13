@@ -181,6 +181,10 @@ body{
     
 
 }
+.card-1,.card-2{
+    display: flex;
+    justify-content: space-around;
+}
 /*---------------------------choose ur type-----------------------------*/
 .choose{
     margin-top: 2rem;
@@ -222,7 +226,7 @@ body{
     padding-right: 1rem;
     }
     .watch{
-    height: 52rem;
+    height: 20rem;
     padding: 0.1rem; 
     }
     .Give-treat{
@@ -232,9 +236,14 @@ body{
         margin: 1rem;
         margin-top: 2rem;
     }
-    .top-photos,.bottom-photo{
-        flex-direction: column;
-    }
+
+   .under-top-photo{
+    width: 45%;
+   }
+   .under-photo{
+    width:30%
+   }
+    
     .under-top-photo,.under-photo{
         margin-top: 1rem;
     }
@@ -283,5 +292,12 @@ body{
     }
     #choose{
         margin-top: 2rem;
+    }
+}
+@media (min-width:600px) (max-width:800px) {
+
+    .card{
+        display:flex;
+        flex-direction: column;
     }
 }
