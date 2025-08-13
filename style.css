@@ -301,7 +301,7 @@ body{
 }
 @media (min-width:600px) and (max-width:800px) {
 
-    .card{
+    .best-photos{
         display:flex;
         flex-direction: column;
     }
@@ -311,7 +311,7 @@ body{
 
     }
     .bestSeller{
-        height: 30rem;
+        height:60rem ;
         
         
     }
