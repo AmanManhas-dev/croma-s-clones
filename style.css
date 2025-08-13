@@ -155,6 +155,7 @@ body{
 /*------------------BestSeller-------------------*/
 .bestSeller{
     height: 30rem;
+    width:100%;
 }
 
 .div-best{
@@ -317,4 +318,5 @@ body{
         
     }
 }
+
 
