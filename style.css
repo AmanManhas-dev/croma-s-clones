@@ -163,6 +163,7 @@ body{
     flex-direction: column;
     align-content: space-around;
     padding: 1.5rem;
+     width:100%;
    
 
 }
@@ -170,6 +171,7 @@ body{
     display: flex;
     justify-content: space-around;
     height: 20rem;
+     width:100%;
    
    
 }
@@ -318,5 +320,6 @@ body{
         
     }
 }
+
 
 
