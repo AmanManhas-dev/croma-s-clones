@@ -139,6 +139,7 @@ body{
 .down-image{
     display: flex;
     justify-content: space-around;
+    width:100%;
 }
 .d-image{
     height: 12rem;
@@ -316,3 +317,4 @@ body{
         
     }
 }
+
