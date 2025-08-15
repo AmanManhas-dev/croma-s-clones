@@ -177,11 +177,11 @@ body{
    
 }
 .card{
-    height: 21rem;
+    height: 25rem;
     width: 100%;
-     margin: 1rem;
+     margin: 0.5rem;
      margin-top: 1rem;
-     width:100%;
+     width: 12rem;
 
 }
 .card-1,.card-2{
@@ -291,6 +291,10 @@ body{
     .card{
         margin-top: 2rem;
         flex-direction: column;
+         width: 18rem;
+         align-items: center;
+        
+       
     }
     .card-1,.card-2{
         flex-direction: column;
@@ -319,7 +323,11 @@ body{
         
         
     }
+    .card{
+         width: 18rem;
+    }
 }
+
 
 
 
