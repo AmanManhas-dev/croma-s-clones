@@ -16,9 +16,11 @@ body{
     border-radius: 50%;
     height: 1.5rem;
     margin: 0.6rem;
+    margin-top: 1rem;
 }
 .dp2{
     height: 2.5rem;
+    margin-top: 1rem;
 }
 .container{
     color: white;
@@ -27,27 +29,37 @@ body{
 h1{
     margin-top: 2rem;
 }
+
 /* --------------Nav Bar---------------*/
 .conatiner-croma{
     display: flex;
     justify-content: space-between;
     width: 40%;
-    margin-top: 1rem;
+   
 }
 .nav{
     width: 100%;
     display: flex;
     justify-content:space-between;
-    height: 4rem;
+   
+   
 }
 .info-holder{
     display: flex;
     justify-content: space-between;
-    width: 25%; margin-top: 1rem;
+    width: 25%;
+    margin-top: 2.7rem;
    
+}
+#search{
+    margin-top: 2.7rem;
+    margin-left: 0.5rem;
 }
 .info-holder>p{
     margin-top: 0.5rem;
+}
+#navbar{
+    margin-top: 1rem;
 }
 #title{
     margin-left: 1rem;
@@ -57,6 +69,7 @@ h1{
     margin-top: 0.5rem;
 
 }
+
 /* --------------Mobile Phones---------------*/
 .phones-wear{
     height: 3rem;
