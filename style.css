@@ -139,7 +139,7 @@ body{
 }
 .down-image{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width:100%;
 }
 .d-image{
@@ -151,6 +151,10 @@ body{
     margin-right: 2.1rem;
     border-radius: 10px;
     
+}
+.container-up,.container-down{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /*------------------BestSeller-------------------*/
@@ -189,6 +193,7 @@ body{
     justify-content: space-around;
      width:100%;
 }
+
 /*---------------------------choose ur type-----------------------------*/
 .choose{
     margin-top: 2rem;
@@ -283,10 +288,19 @@ body{
         padding: 0.5rem;
         
     }
-    .best-photos{
+    .down-image{
        
        flex-direction: column;
        align-content: center;
+    }
+    .best-photos{
+        flex-direction: column;
+    }
+    .card-1,.card-2{
+        flex-direction: column;
+    }
+    .mostPopular{
+        height: 60rem;
     }
     .card{
         margin-top: 2rem;
@@ -296,6 +310,7 @@ body{
         
        
     }
+    .
     .card-1,.card-2{
         flex-direction: column;
     }
